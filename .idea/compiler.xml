@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yanggo-service-file" />
+        <module name="yanggo-eureka" />
+        <module name="yanggo-service-goods-api" />
+        <module name="yanggo-service-goods" />
+        <module name="yanggo-common-db" />
+        <module name="yanggo-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="yanggo-common" target="1.8" />
+      <module name="yanggo-common-db" target="1.8" />
+      <module name="yanggo-eureka" target="1.8" />
+      <module name="yanggo-gateway" target="1.8" />
+      <module name="yanggo-parent" target="1.8" />
+      <module name="yanggo-service" target="1.8" />
+      <module name="yanggo-service-api" target="1.8" />
+      <module name="yanggo-service-file" target="1.8" />
+      <module name="yanggo-service-goods" target="1.8" />
+      <module name="yanggo-service-goods-api" target="1.8" />
+      <module name="yanggo-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="yanggo-common" options="-parameters" />
+      <module name="yanggo-common-db" options="-parameters" />
+      <module name="yanggo-eureka" options="-parameters" />
+      <module name="yanggo-service-file" options="-parameters" />
+      <module name="yanggo-service-goods" options="-parameters" />
+      <module name="yanggo-service-goods-api" options="-parameters" />
+    </option>
+  </component>
+</project>
