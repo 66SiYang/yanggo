@@ -9,7 +9,7 @@ import tk.mybatis.mapper.common.Mapper;
  *
  * @author 三国的包子
  * @version 1.0
- * @package com.changgou.dao *
+ * @package com.yanggo.dao *
  * @since 1.0
  */
 

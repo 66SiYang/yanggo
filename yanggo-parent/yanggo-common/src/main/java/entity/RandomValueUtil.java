@@ -2,8 +2,8 @@ package entity;
 
 /***
  *
- * @Author:www.itheima.com
- * @Description:itheima
+ * @Author:yang
+ * @Description:yang
  *
  ****/
 public class RandomValueUtil {

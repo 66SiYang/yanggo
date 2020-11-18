@@ -25,7 +25,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 /*****
- * @Author: www.itheima.com
+ * @Author: yang
  * @Description: entity
  ****/
 public class HttpClient {

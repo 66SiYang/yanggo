@@ -5,7 +5,7 @@ spring:
     name: goods
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://xxxxxxxxx/changgou_goods?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    url: jdbc:mysql://xxxxxxxxx/yanggo_goods?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     username: root
     password: 123456
 eureka:
@@ -17,10 +17,3 @@ eureka:
 feign:
   hystrix:
     enabled: true
-
-#mybatis的配置 可以不配置  需要整合通用mapper
-#mybatis:
-#  configuration:
-#    map-underscore-to-camel-case: true
-#  mapper-locations: classpath:mapper/*Mapper.xml
-#  type-aliases-package: com.changgou.goods.pojo

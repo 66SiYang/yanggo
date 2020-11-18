@@ -7,7 +7,7 @@ import java.io.Serializable;
  *
  * @author 三国的包子
  * @version 1.0
- * @package com.changgou.file *
+ * @package com.yanggo.file *
  * @since 1.0
  */
 public class FastDFSFile implements Serializable {

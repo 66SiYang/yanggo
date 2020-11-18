@@ -12,7 +12,7 @@ import tk.mybatis.mapper.entity.Example;
  *
  * @author 三国的包子
  * @version 1.0
- * @package com.changgou.goods.controller *
+ * @package com.yanggo.goods.controller *
  * @since 1.0
  */
 @ControllerAdvice// 交给spring容器管理 标识是一个异常处理器

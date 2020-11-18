@@ -20,7 +20,7 @@ import java.util.function.Supplier;
  *
  * @author 三国的包子
  * @version 1.0
- * @package com.changgou.goods.service.impl *
+ * @package com.yanggo.goods.service.impl *
  * @since 1.0
  */
 @Service

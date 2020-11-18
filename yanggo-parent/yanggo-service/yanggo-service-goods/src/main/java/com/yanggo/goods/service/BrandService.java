@@ -2,6 +2,7 @@ package com.yanggo.goods.service;
 
 import com.yanggo.goods.pojo.Brand;
 import com.github.pagehelper.PageInfo;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -10,7 +11,7 @@ import java.util.List;
  *
  * @author 三国的包子
  * @version 1.0
- * @package com.changgou.goods.service *
+ * @package com.yanggo.goods.service *
  * @since 1.0
  */
 public interface BrandService {

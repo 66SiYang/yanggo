@@ -15,7 +15,7 @@ import java.io.InputStream;
  *
  * @author 三国的包子
  * @version 1.0
- * @package com.changgou.util *
+ * @package com.yanggo.util *
  * @since 1.0
  */
 public class FastDFSClient {
@@ -163,7 +163,7 @@ public class FastDFSClient {
     }
 
     //获取tracker 的ip和端口的信息
-    //http://192.168.211.132:8080
+    //http://xxxx:8080
     public static String getTrackerUrl(){
         try {
             //3.创建trackerclient对象
@@ -172,8 +172,6 @@ public class FastDFSClient {
             TrackerServer trackerServer = trackerClient.getConnection();
             //tracker 的ip的信息
             String hostString = trackerServer.getInetSocketAddress().getHostString();
-
-            //http://192.168.211.132:8080/group1/M00/00/00/wKjThF1aW9CAOUJGAAClQrJOYvs424.jpg img
             int g_tracker_http_port = ClientGlobal.getG_tracker_http_port();
             return "http://" + hostString + ":" + g_tracker_http_port;
         } catch (IOException e) {

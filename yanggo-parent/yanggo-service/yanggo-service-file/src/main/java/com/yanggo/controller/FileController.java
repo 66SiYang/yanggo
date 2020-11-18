@@ -1,4 +1,4 @@
-package com.yanggo.file.controller;
+package com.yanggo.controller;
 
 import com.yanggo.file.FastDFSFile;
 import com.yanggo.util.FastDFSClient;
@@ -13,7 +13,7 @@ import java.io.IOException;
  *
  * @author 三国的包子
  * @version 1.0
- * @package com.changgou.file.controller *
+ * @package com.yanggo.controller *
  * @since 1.0
  */
 @RestController
@@ -41,7 +41,6 @@ public class FileController {
         try {
             //1. 创建图片文件对象(封装)
             //2. 调用工具类实现图片上传
-
             //String substring = file.getOriginalFilename().substring(file.getOriginalFilename().lastIndexOf(".") + 1);
 
             FastDFSFile fastdfsfile = new FastDFSFile(
@@ -50,14 +49,9 @@ public class FileController {
                     StringUtils.getFilenameExtension(file.getOriginalFilename())
             );
             String[] upload = FastDFSClient.upload(fastdfsfile);
-
             //  upload[0] group1
             //  upload[1] M00/00/00/wKjThF1aW9CAOUJGAAClQrJOYvs424.jpg
             //3. 拼接图片的全路径返回
-
-            // http://192.168.211.132:8080/group1/M00/00/00/wKjThF1aW9CAOUJGAAClQrJOYvs424.jpg
-
-            // http://192.168.211.132:8080  +
             return FastDFSClient.getTrackerUrl()+"/"+upload[0]+"/"+upload[1];
         } catch (IOException e) {
             e.printStackTrace();

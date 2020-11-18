@@ -15,7 +15,7 @@ import java.util.List;
  *
  * @author 三国的包子
  * @version 1.0
- * @package com.changgou.goods.controller *
+ * @package com.yanggo.goods.controller *
  * @since 1.0
  */
 @RestController

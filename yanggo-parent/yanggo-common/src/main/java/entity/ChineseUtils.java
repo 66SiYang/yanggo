@@ -6,8 +6,8 @@ import java.util.Random;
 
 /***
  *
- * @Author:www.itheima.com
- * @Description:itheima
+ * @Author:yang
+ * @Description:yang
  *
  ****/
 public class ChineseUtils {
